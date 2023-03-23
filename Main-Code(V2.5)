@@ -23,7 +23,9 @@ if setup == '1':
         with open('username.txt' , 'w') as f:
             f.write(name)
 
-print ("[1] About \n©2021 FutrDev 2021. All rights reserved. ")
+print ("
+ALERT: This Version Of FutrOS is listed under "not supported", update to a newer version for full software support
+[1] About \n©2021 FutrDev 2021. All rights reserved. ")
 setup = input ("[?]:")
 
 if setup ==  '1':
@@ -45,7 +47,7 @@ if setup ==  '1':
     ██║░░░░░╚██████╔╝░░░██║░░░██║░░██║  ╚█████╔╝██████╔╝
     ╚═╝░░░░░░╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝  ░╚════╝░╚═════╝░
     Version 2.1 
-    ©2021 FutrDev. This is a liscenced and authentic version of 
+    ©2021 FutrDev. This is a licensed and authentic version of 
     FutrOS.  if you have any questions or want to report bugs go to:
     www.futrdev.wixiste.com/home and Contact Us. 
 

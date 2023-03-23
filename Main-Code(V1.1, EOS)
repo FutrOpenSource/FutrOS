@@ -1,12 +1,16 @@
+#(c) FutrOS 2021. All rights reserved.
+#Last updated: 03/23/23
+
 import os
 
 print ("""
-  ███████╗██╗░░░██╗████████╗██████╗░  ░█████╗░░██████╗
+    ███████╗██╗░░░██╗████████╗██████╗░  ░█████╗░░██████╗
     ██╔════╝██║░░░██║╚══██╔══╝██╔══██╗  ██╔══██╗██╔════╝
     █████╗░░██║░░░██║░░░██║░░░██████╔╝  ██║░░██║╚█████╗░
     ██╔══╝░░██║░░░██║░░░██║░░░██╔══██╗  ██║░░██║░╚═══██╗
     ██║░░░░░╚██████╔╝░░░██║░░░██║░░██║  ╚█████╔╝██████╔╝
-    ╚═╝░░░░░░╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝  ░╚════╝░╚═════╝░   BETA 1.0
+    ╚═╝░░░░░░╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝  ░╚════╝░╚═════╝░   BETA 1.1
+ALERT: This Version Of FutrOS is listed under "not supported", update to a newer version for full software support
 """)
 
 print (""" 
@@ -46,7 +50,7 @@ if setup ==  '1':
     ██╔══╝░░██║░░░██║░░░██║░░░██╔══██╗  ██║░░██║░╚═══██╗
     ██║░░░░░╚██████╔╝░░░██║░░░██║░░██║  ╚█████╔╝██████╔╝
     ╚═╝░░░░░░╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝  ░╚════╝░╚═════╝░
-    Version 2.1 
+    Version 1.1 
     ©2021 FutrDev. This is a licensed and authentic version of 
     FutrOS.  if you have any questions or want to report bugs go to:
     www.futrdev.wixiste.com/home and Contact Us. 
@@ -67,7 +71,26 @@ if setup ==  'awesome':
 ╚═╩═╩═╩═╝╚╝╚═╩═╩╝╚═╩══╝
 
                """)
-
+if setup == 'eos':
+       print ("""
+       This Version Of FutrOS is listed under "not supported", update to a newer version for full software support.
+       """)
+if setup == 'routing':
+      print ("""
+      FutrOS Manual Routing.
+      """)
+if setup == 'v1':
+      print ("""
+      Thanks for using FutrOS, we hope you enjoyed using 1.1 while it was supported ❤.
+      """)
+if setup == 'upgrade':
+      print ("""
+      Upgrade to V3 of FutrOS at https://bit.ly/futrosupdate!
+      """)
+if setup == 'thanksv1':
+      print ("""
+      Thanks V1!
+      """)
 if setup ==  '!beta':
         print ("""         
 

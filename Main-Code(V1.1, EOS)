@@ -1,17 +1,17 @@
 #(c) FutrOS 2021. All rights reserved.
-#Last updated: 03/23/23
+#Last updated: 03/26/23
 # Thanks V1 for everything!
 
 import os
 
 print ("""
-    ███████╗██╗░░░██╗████████╗██████╗░  ░█████╗░░██████╗
-    ██╔════╝██║░░░██║╚══██╔══╝██╔══██╗  ██╔══██╗██╔════╝
-    █████╗░░██║░░░██║░░░██║░░░██████╔╝  ██║░░██║╚█████╗░
-    ██╔══╝░░██║░░░██║░░░██║░░░██╔══██╗  ██║░░██║░╚═══██╗
-    ██║░░░░░╚██████╔╝░░░██║░░░██║░░██║  ╚█████╔╝██████╔╝
-    ╚═╝░░░░░░╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝  ░╚════╝░╚═════╝░   BETA 1.1
-ALERT: This Version Of FutrOS is listed under "not supported", update to a newer version for full software support
+                                        ███████╗██╗░░░██╗████████╗██████╗░  ░█████╗░░██████╗
+                                        ██╔════╝██║░░░██║╚══██╔══╝██╔══██╗  ██╔══██╗██╔════╝
+                                        █████╗░░██║░░░██║░░░██║░░░██████╔╝  ██║░░██║╚█████╗░
+                                        ██╔══╝░░██║░░░██║░░░██║░░░██╔══██╗  ██║░░██║░╚═══██╗
+                                        ██║░░░░░╚██████╔╝░░░██║░░░██║░░██║  ╚█████╔╝██████╔╝
+                                        ╚═╝░░░░░░╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝  ░╚════╝░╚═════╝░   BETA 1.1
+                ALERT: This Version Of FutrOS is listed under "not supported", update to a newer version for full software support
 """)
 
 print (""" 
@@ -29,32 +29,31 @@ if setup == '1':
             f.write(name)
 
 print ("
-ALERT: This Version Of FutrOS is listed under "not supported", update to a newer version for full software support
-[1] About \n©2021 FutrDev 2021. All rights reserved. ")
+[ALERT:] This Version Of FutrOS is listed under "not supported", update to a newer version for full software support. For more info on updating use the "upgrade" cmd.
+[1] About \n©2021 - 2023 Futr 2023. All rights Reserved.")
 setup = input ("[?]:")
 
 if setup ==  '1':
         print ("""   
-    ╔═══╦╗───────╔╗     
-    ║╔═╗║║──────╔╝╚╗
-    ║║─║║╚═╦══╦╗╠╗╔╝
-    ║╚═╝║╔╗║╔╗║║║║║
-    ║╔═╗║╚╝║╚╝║╚╝║╚╗
-    ╚╝─╚╩══╩══╩══╩═╝
-        
+                                                                ╔═══╦╗───────╔╗     
+                                                                ║╔═╗║║──────╔╝╚╗
+                                                                ║║─║║╚═╦══╦╗╠╗╔╝
+                                                                ║╚═╝║╔╗║╔╗║║║║║
+                                                                ║╔═╗║╚╝║╚╝║╚╝║╚╗
+                                                                ╚╝─╚╩══╩══╩══╩═╝
         
 
+███████╗██╗░░░██╗████████╗██████╗░  ░█████╗░░██████╗
+██╔════╝██║░░░██║╚══██╔══╝██╔══██╗  ██╔══██╗██╔════╝
+█████╗░░██║░░░██║░░░██║░░░██████╔╝  ██║░░██║╚█████╗░
+██╔══╝░░██║░░░██║░░░██║░░░██╔══██╗  ██║░░██║░╚═══██╗
+██║░░░░░╚██████╔╝░░░██║░░░██║░░██║  ╚█████╔╝██████╔╝
+╚═╝░░░░░░╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝  ░╚════╝░╚═════╝░
+    
+Version 1.1 
+©2021 - 2023 Futr. This is a licensed and authentic version of FutrOS.  
+[ALERT:] This version is listed under "not supported". Update to the latest version for full software support.
 
-    ███████╗██╗░░░██╗████████╗██████╗░  ░█████╗░░██████╗
-    ██╔════╝██║░░░██║╚══██╔══╝██╔══██╗  ██╔══██╗██╔════╝
-    █████╗░░██║░░░██║░░░██║░░░██████╔╝  ██║░░██║╚█████╗░
-    ██╔══╝░░██║░░░██║░░░██║░░░██╔══██╗  ██║░░██║░╚═══██╗
-    ██║░░░░░╚██████╔╝░░░██║░░░██║░░██║  ╚█████╔╝██████╔╝
-    ╚═╝░░░░░░╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝  ░╚════╝░╚═════╝░
-    Version 1.1 
-    ©2021 FutrDev. This is a licensed and authentic version of 
-    FutrOS.  if you have any questions or want to report bugs go to:
-    www.futrdev.wixiste.com/home and Contact Us. 
 
     """)
 
@@ -86,7 +85,7 @@ if setup == 'v1':
       """)
 if setup == 'upgrade':
       print ("""
-      Upgrade to V3 of FutrOS at https://bit.ly/futrosupdate!
+      Upgrade to V3 of FutrOS at https://bit.ly/futrosupdate. Use MigrationMachine to import your data from this version of FutrOS.
       """)
 if setup == 'thanksv1':
       print ("""
@@ -98,6 +97,14 @@ if setup ==  '!beta':
 This is a beta version of FutrOS
 
                """)
+if setup == 'archive':
+        print("""
+This version of FutrOS is archived
+        """)
+if setup == 'migrate':
+        print ("""
+Migrate to a newer version of FutrOS by using MigrationMachine at https://bit.ly/migrationmachine.
+        """)
 
 if setup ==  '!help':
         print ("""         
